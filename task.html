@@ -24,6 +24,8 @@
     <main class="content">
       <div class="card">
         <h1>Курс валют</h1>
+
+        <!-- Данные подгружаются в элемент #items -->
         <div id="items">
           <div class="item">
             <div class="item__code">
@@ -37,7 +39,9 @@
                 </div>
           </div>
         </div>
-        <img
+
+        <!-- Анимация загрузки страницы, без loader_active - скрыт -->
+        <img 
           id="loader"
           class="loader loader_active"
           src="https://i.postimg.cc/66SGMVs5/mcru-ajax-loader.gif"
