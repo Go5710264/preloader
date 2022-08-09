@@ -4,7 +4,7 @@ const currencyExchangeClone = document.querySelector('.item'); // констан
 currencyExchangeClone.setAttribute('style','display: none;')
 
 
-let xhr = new XMLHttpRequest(); // экземпляр объекта XMLHttpRequest  
+const xhr = new XMLHttpRequest(); // экземпляр объекта XMLHttpRequest  
 xhr.open('GET', 'https://netology-slow-rest.herokuapp.com'); // инициализация запроса
 xhr.send();
 
