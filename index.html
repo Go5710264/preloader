@@ -8,24 +8,12 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Анимация загрузки</title>
-    <link rel="stylesheet" href="task.css" />
-    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="logo__container">
-        <a href="https://netology.ru/" class="logo__link"></a>
-      </div>
-      <h1 class="header__title">
-        Домашнее задание к занятию 3.1 «Асинхронные запросы». Анимация загрузки.
-        данных.
-      </h1>
-    </header>
     <main class="content">
       <div class="card">
         <h1>Курс валют</h1>
-
-        <!-- Данные подгружаются в элемент #items -->
         <div id="items">
           <div class="item">
             <div class="item__code">
@@ -39,8 +27,6 @@
                 </div>
           </div>
         </div>
-
-        <!-- Анимация загрузки страницы, без loader_active - скрыт -->
         <img 
           id="loader"
           class="loader loader_active"
@@ -48,6 +34,6 @@
         />
       </div>
     </main>
-    <script src="task.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
